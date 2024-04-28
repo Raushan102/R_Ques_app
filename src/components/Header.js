@@ -1,12 +1,11 @@
-import React from 'react'; 
 
-import logoImage from "../assets/quiz-logo.png";
-
-export default function Header() {
-  return (
-    <header> 
-      <img src={logoImage} alt="HeaderLogo" className="HeaderLogo" />
-      <h2 className="headerTopic">ReactQuiz</h2>
-    </header> 
-  );
+import page_logo from '../assets/quiz-logo.png'
+export default function Header()
+{
+    return (
+      <header>
+        <img src={page_logo} alt="quiz logo" />
+        <h1>ReactQuiz</h1>
+      </header>
+    );
 }
